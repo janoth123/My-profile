@@ -1,0 +1,67 @@
+.nav-items, .n-light-mode {
+  background-color: transparent;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 20px;
+  position: fixed;
+  top: 50px;
+  right: 15px;
+}
+
+.icon, .green-icon, .mode {
+  background-color: #454e56;
+  margin: 10px 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #B2BECD;
+  cursor: pointer;
+}
+
+.mode {
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+.green-icon {
+  background-color: #27ae60;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.n-light-mode {
+  background-color: transparent;
+}
+.n-light-mode .green-icon {
+  background-color: #F56692;
+}
+
+@media (max-width: 770px) {
+  .nav-items, .n-light-mode {
+    z-index: 1;
+    flex-direction: row !important;
+    top: 100%;
+    right: 0;
+    left: 0;
+    bottom: 5px;
+    justify-content: space-evenly;
+  }
+  .nav-items .mode, .n-light-mode .mode {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=navigation.css.map */

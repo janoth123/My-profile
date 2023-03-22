@@ -1,0 +1,234 @@
+.about-container, .a-light-mode {
+  background-color: #191d2b;
+  color: white;
+  padding: 50px 0px;
+}
+.about-container .about, .a-light-mode .about {
+  width: 85%;
+  margin: auto;
+}
+.about-container .header, .a-light-mode .header {
+  font-size: 60px;
+  text-align: center;
+  padding: 20px;
+  -webkit-text-stroke: 5px;
+}
+.about-container .summaries, .a-light-mode .summaries {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.about-container .summaries .about-me-text, .a-light-mode .summaries .about-me-text {
+  width: 40%;
+}
+.about-container .summaries .about-me-text h1, .a-light-mode .summaries .about-me-text h1 {
+  margin: 0px 0px 20px 20px;
+  -webkit-text-stroke: 1px;
+}
+.about-container .summaries .about-me-text .about-text-width, .a-light-mode .summaries .about-me-text .about-text-width {
+  width: 80%;
+}
+.about-container .summaries .about-me-text .about-text-width p, .a-light-mode .summaries .about-me-text .about-text-width p {
+  margin: 20px;
+}
+.about-container .summaries .stats-section, .a-light-mode .summaries .stats-section {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.about-container .stat, .a-light-mode .stat {
+  width: 40%;
+  height: 230px;
+  background-color: #191d2b;
+  box-shadow: 0px 0px 1px 0px grey;
+  border-radius: 7px;
+  transition: all 0.5s 0s linear;
+}
+.about-container .stat .number, .a-light-mode .stat .number {
+  font-size: 50px;
+  -webkit-text-stroke: 5px;
+  width: 85%;
+  margin: auto;
+}
+.about-container .stat .text, .a-light-mode .stat .text {
+  font-size: 25px;
+  width: 60%;
+  margin: 10px auto;
+}
+.about-container .stat:hover, .a-light-mode .stat:hover {
+  border: 1px solid #27ae60;
+  transform: translateY(-4px);
+}
+.about-container .button, .a-light-mode .button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  border: 1px solid #27ae60;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: 600;
+  margin: 20px;
+}
+.about-container .divider, .a-light-mode .divider {
+  width: 40%;
+  margin: 40px auto;
+  border-top: 1px solid rgb(58, 57, 57);
+}
+.about-container .divider .new-section, .a-light-mode .divider .new-section {
+  text-align: center;
+  margin: 50px 0px;
+}
+.about-container .my-skills-section, .a-light-mode .my-skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-container .my-skills-section .skill, .a-light-mode .my-skills-section .skill {
+  width: 45%;
+  margin: 10PX;
+}
+.about-container .skill-icon-section, .a-light-mode .skill-icon-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-container .skill-icon-section .icon, .a-light-mode .skill-icon-section .icon {
+  width: 30px;
+  height: 30px;
+}
+.about-container .full-width, .a-light-mode .full-width {
+  height: 0;
+  width: 80%;
+  border-bottom: 5px solid grey;
+}
+.about-container .progress-bar, .a-light-mode .progress-bar {
+  border-top: 5px solid #27ae60;
+  height: 0;
+  width: 80%;
+}
+.about-container .js .icon, .a-light-mode .js .icon {
+  color: yellow;
+}
+.about-container .html .icon, .a-light-mode .html .icon {
+  color: #C85433;
+  background-color: white;
+}
+.about-container .html .progress-bar, .a-light-mode .html .progress-bar {
+  width: 85%;
+}
+.about-container .css .icon, .a-light-mode .css .icon {
+  color: #2449D8;
+  background-color: white;
+}
+.about-container .jquery .icon, .a-light-mode .jquery .icon {
+  color: skyblue;
+}
+.about-container .jquery .progress-bar, .a-light-mode .jquery .progress-bar {
+  width: 90%;
+}
+.about-container .node .icon, .a-light-mode .node .icon {
+  color: greenyellow;
+}
+.about-container .node .progress-bar, .a-light-mode .node .progress-bar {
+  width: 90%;
+}
+.about-container .react .icon, .a-light-mode .react .icon {
+  color: #5CCFEE;
+}
+.about-container .mongodb .icon, .a-light-mode .mongodb .icon {
+  color: #4BA13E;
+}
+.about-container .sass .icon, .a-light-mode .sass .icon {
+  color: #C36291;
+}
+.about-container .mysql .icon, .a-light-mode .mysql .icon {
+  color: white;
+}
+.about-container .mysql .progress-bar, .a-light-mode .mysql .progress-bar {
+  width: 70%;
+}
+.about-container .git .icon, .a-light-mode .git .icon {
+  color: white;
+  background-color: black;
+}
+.about-container .timeline-section, .a-light-mode .timeline-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-container .timeline-container, .a-light-mode .timeline-container {
+  width: 50%;
+}
+.about-container .timeline-container .timeline-icon .icon, .a-light-mode .timeline-container .timeline-icon .icon {
+  position: relative;
+  left: -23px;
+  top: 60px;
+  background-color: #27ae60;
+  color: white;
+  padding: 15px;
+}
+.about-container .timeline, .a-light-mode .timeline {
+  border-left: 1px solid #2A2E35;
+  padding: 0px 50px;
+  margin: 10px 0px;
+}
+.about-container .timeline .date, .a-light-mode .timeline .date {
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #2A2E35;
+}
+.about-container .timeline .body, .a-light-mode .timeline .body {
+  margin: 10px 0px;
+}
+.about-container .timeline .body p, .a-light-mode .timeline .body p {
+  margin: 10px;
+}
+.about-container .timeline .role, .a-light-mode .timeline .role {
+  font-weight: 700;
+}
+.about-container .timeline .company, .a-light-mode .timeline .company {
+  color: #B2BECD;
+}
+
+.a-light-mode {
+  background-color: white;
+  color: #454E56;
+}
+.a-light-mode .green {
+  color: #F56692;
+}
+.a-light-mode .timeline .date {
+  background-color: #F8F8F8;
+  color: #6C7983;
+}
+.a-light-mode .stat {
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px grey;
+}
+.a-light-mode .stat:hover {
+  border: 1px solid #F56692;
+}
+.a-light-mode .timeline-container .timeline-icon .icon {
+  background-color: #F56692;
+  color: white;
+}
+.a-light-mode .full-width {
+  border-bottom: 5px solid #454E56;
+}
+.a-light-mode .progress-bar {
+  border-top: 5px solid #F56692;
+}
+.a-light-mode .button {
+  border: 1px solid #F56692;
+  color: #454E56;
+}
+.a-light-mode .button .green-icon {
+  background-color: #F56692;
+}/*# sourceMappingURL=about.css.map */

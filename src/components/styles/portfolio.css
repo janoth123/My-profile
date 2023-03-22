@@ -1,0 +1,152 @@
+.portfolio-container, .p-light-mode {
+  color: white;
+  background-color: #191d2b;
+}
+.portfolio-container .intro-text, .p-light-mode .intro-text {
+  margin: 20px;
+  text-align: center;
+}
+
+.portfolio-page {
+  width: 85%;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px auto;
+  padding: 30px;
+}
+
+.row-item {
+  width: 30%;
+  height: 300px;
+  border-radius: 30px;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../images/flipkart.jpg");
+}
+.row-item .source {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.row-item .source .icon {
+  background-color: black;
+}
+.row-item .source .icon:hover {
+  background-color: white;
+  color: black;
+}
+
+.row-item2 {
+  background-image: url("../images/ecom.jpg");
+}
+
+.row-item3 {
+  background-image: url("../images/tumblr.webp");
+}
+
+.row-item4 {
+  background-image: url("../images/quiz-img.png");
+}
+
+.row-item5 {
+  text-align: center;
+  background-image: url("../images/node.png");
+}
+
+.row-item6 {
+  background-image: url("../images/list.png");
+}
+
+.akeru {
+  background-image: url("../images/akeru.png");
+  text-align: center;
+}
+
+.reworkacademy {
+  background-image: url("../images/reworkacademy.png");
+  text-align: center;
+}
+
+.Amazon {
+  background-image: url("../images/screenshot_.png");
+  text-align: center;
+}
+
+.row-item-more {
+  width: 30%;
+}
+.row-item-more center {
+  font-size: 70px;
+  -webkit-text-stroke: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.row-item-more .more-row-text::before {
+  content: "View More";
+  -webkit-text-stroke: 1px;
+  font-size: 20px;
+  color: #27ae60;
+  width: 200px;
+  text-align: center;
+}
+
+.row-text, .row-item-more .more-row-text {
+  background-color: transparent;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s 0s linear;
+}
+.row-text .icon, .row-item-more .more-row-text .icon {
+  width: 0px;
+  transition: width 1s, height 1s;
+}
+
+.row-text:hover, .row-item-more .more-row-text:hover {
+  background-color: #27ae60;
+  color: white;
+  border-radius: 30px;
+}
+.row-text:hover .icon, .row-item-more .more-row-text:hover .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.p-light-mode {
+  background-color: white;
+  color: #454E56;
+}
+.p-light-mode .row-text:hover, .p-light-mode .row-item-more .more-row-text:hover, .row-item-more .p-light-mode .more-row-text:hover {
+  background-color: #F56692;
+  color: #454E56;
+}
+.p-light-mode .row-item .source .icon {
+  background-color: white;
+  color: black;
+}
+.p-light-mode .row-item .source .icon:hover {
+  background-color: black;
+  color: white;
+}
+.p-light-mode .more-row-text::before {
+  color: #F56692;
+}
+.p-light-mode .green {
+  color: #F56692;
+}
+.p-light-mode .row-item-more .icon:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=portfolio.css.map */

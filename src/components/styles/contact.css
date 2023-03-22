@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-page-container, .c-light-mode {
+  background-color: #191d2b;
+  color: white;
+  padding: 50px 0px;
+}
+
+.contact_icon {
+  font-size: 20px;
+}
+
+.contact-page {
+  width: 70%;
+  margin: auto;
+}
+.contact-page .header {
+  padding: 40px;
+}
+.contact-page .header p {
+  font-size: 55px;
+  text-align: center;
+  -webkit-text-stroke: 5px;
+  letter-spacing: 3px;
+}
+.contact-page .icon {
+  color: white;
+  transition: all 0.3s 0s linear;
+}
+.contact-page .icon:hover {
+  background-color: #27ae60;
+  color: white;
+}
+
+.items, .items .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.items .item {
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 5px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-section input, .input-section textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 20px;
+  border: none;
+  background-color: #2A2E35;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+}
+.input-section button {
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #27ae60;
+  width: 200px;
+  margin: 10px 0px;
+  border-radius: 40px;
+  font-weight: 600;
+}
+
+.c-light-mode {
+  background-color: white;
+  color: #454E56;
+}
+.c-light-mode button {
+  border: 1px solid #F56692;
+}
+.c-light-mode input, .c-light-mode textarea {
+  background-color: #F8F8F8;
+  color: #454E56;
+}
+.c-light-mode .green {
+  color: #F56692;
+}
+.c-light-mode .icon {
+  background-color: #F8F8F8;
+  color: #454E56;
+}
+.c-light-mode .icon:hover {
+  background-color: #F56692;
+  color: white;
+}
+
+.error-message {
+  font-size: 12px;
+  color: red;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.green {
+  color: #27ae60;
+}
+
+.homepage-container, .h-light-mode {
+  background-color: #191d2b;
+  color: white;
+}
+.homepage-container .homepage, .h-light-mode .homepage {
+  display: flex;
+  gap: 50px;
+}
+.homepage-container .image-section, .h-light-mode .image-section {
+  height: 100vh;
+  width: 50%;
+}
+.homepage-container .image-section .image-background, .h-light-mode .image-section .image-background {
+  border-bottom: 100vh solid #27ae60;
+  border-right: 50vh solid transparent;
+  width: 70%;
+  background-color: #191d2b;
+}
+.homepage-container .image-section .main-image, .h-light-mode .image-section .main-image {
+  width: 35%;
+  position: absolute;
+  background-size: contain;
+  top: 5%;
+  left: 50px;
+}
+.homepage-container .image-section .main-image img, .h-light-mode .image-section .main-image img {
+  width: 100%;
+  background-color: black;
+}
+.homepage-container .text-section, .h-light-mode .text-section {
+  height: 100vh;
+  width: 50%;
+  padding: 5% 20px 20px 20px;
+}
+.homepage-container .text-section h1, .h-light-mode .text-section h1 {
+  width: 56%;
+  font-size: 45px;
+  -webkit-text-stroke: 2px;
+  letter-spacing: 3px;
+}
+.homepage-container .text-section P, .h-light-mode .text-section P {
+  width: 70%;
+  font-size: 18PX;
+  line-height: 0.9cm;
+  margin: 20px 0px;
+}
+.homepage-container .button, .h-light-mode .button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  border: 1px solid #27ae60;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  font-weight: 600;
+}
+
+.h-light-mode {
+  background-color: white;
+  color: black;
+}
+.h-light-mode .green {
+  color: #F56692;
+}
+.h-light-mode .image-section .image-background {
+  border-bottom: 100vh solid #F56692;
+  background-color: white;
+}
+.h-light-mode .button {
+  border: 1px solid #F56692;
+  color: black;
+}
+.h-light-mode .green-icon {
+  background-color: #F56692;
+}
+
+@media (max-width: 770px) {
+  .homepage-container .text-section p, .h-light-mode .text-section p {
+    width: 100%;
+  }
+}/*# sourceMappingURL=homePage.css.map */

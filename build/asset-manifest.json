@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.39c4b65d.chunk.css",
+    "main.js": "/static/js/main.29d80173.chunk.js",
+    "main.js.map": "/static/js/main.29d80173.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.338e8697.js",
+    "runtime-main.js.map": "/static/js/runtime-main.338e8697.js.map",
+    "static/js/2.61320ea2.chunk.js": "/static/js/2.61320ea2.chunk.js",
+    "static/js/2.61320ea2.chunk.js.map": "/static/js/2.61320ea2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.39c4b65d.chunk.css.map": "/static/css/main.39c4b65d.chunk.css.map",
+    "static/js/2.61320ea2.chunk.js.LICENSE.txt": "/static/js/2.61320ea2.chunk.js.LICENSE.txt",
+    "static/media/portfolio.scss": "/static/media/tumblr.580db964.webp",
+    "static/media/image2.0af331ff.jpg": "/static/media/image2.0af331ff.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.338e8697.js",
+    "static/js/2.61320ea2.chunk.js",
+    "static/css/main.39c4b65d.chunk.css",
+    "static/js/main.29d80173.chunk.js"
+  ]
+}
